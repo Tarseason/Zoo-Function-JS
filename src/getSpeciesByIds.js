@@ -1,10 +1,7 @@
 const data = require('../data/zoo_data');
 
-function getSpeciesByIds(ids) {
-  if (typeof ids === 'undefined') {
-    return [];
-  }
-  return [data.species.find((animal) => animal.id === ids)];
+function getSpeciesByIds(ids, id) {
+  return data.species.filter((elemento) => elemento.id === ids || elemento.id === id);
 }
 
 module.exports = getSpeciesByIds;
