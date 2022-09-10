@@ -1,5 +1,4 @@
 const getOpeningHours = require('../src/getOpeningHours');
-const { expect } = require('@jest/globals');
 
 describe('Testes da função getOpeningHours', () => {
   it('Teste não passando argumentos', () => {
