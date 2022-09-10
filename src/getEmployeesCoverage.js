@@ -6,7 +6,6 @@ const algo = (abc) => species.filter(({ id }) => abc.includes(id)).map((elemento
 
 const alg = (loc) => species.filter(({ id }) => loc.includes(id))
   .map((elemento) => elemento.location);
-console.log(algo('0938aa23-f153-4937-9f88-4858b24d6bce'));
 
 const retornaAll = () => {
   const nomea = employees.map(({ id, firstName, lastName, responsibleFor }) => {
